@@ -1,235 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./files/icon.ico">
-    <link rel="stylesheet" href="./css/style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        body{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: 600;
+        }
+    </style>
 </head>
-    <title>Kushal Obroy</title>
+<title>Kushal Obroy</title>
 </head>
+
 <body>
-    <header class="header">
-        <a href="" class="logo">Kushal Obroy</a>
-        <nav class="navbar">
-          <a href="" style="--i:1" class="active">Home</a>
-          <a href="#about" style="--i:2">About</a>
-          <a href="#serviceu" style="--i:3">Skill</a>
-          <a href="" style="--i:4">Portfolio</a>
-          <a href="" style="--i:5">Contact</a>
-        </nav>
-    </header> 
-    <section class="home">
-        <div class="home-content">
-            
-          <h3>Hello, It's Me</h3>
-          <h1>Kushal Obroy</h1>
-          <h3>And I'm a <span id="text"></span></h3>
-          <p>I'm a full stack developer with extensive experiece with two full stack <br> developement Internship.
-            expertise is to deploy full stack web developement applications and many more...
-          </p>
-          <div class="home-sci">
-              <a href="https://www.github.com/kushalobroy" style="--i:7"><i class='bx bxl-github'></i></a>
-              <a href="https://www.linkedin.com/in/kushalobroy/" style="--i:8"><i class='bx bxl-linkedin'></i></a>
-              <a href="" style="--i:9"><i class='bx bxl-instagram' ></i></a>
-              <a href="" style="--i:10"><i class='bx bxl-whatsapp' ></i></a>
+    <!---Navbar Start-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!---Navbar End-->
+    <!--About Section Start-->
+    <div class="container mb-3">
+        <div class="">
+            <h2 class="fw-bold w-10 mb-3">Kushal <span>Obroy</span></h2>
+            <p class="col">I'm Final Year B.tech Information Technology Sudent Of Rajkiya Engineering College Azamgarh.</p>
+        </div>
+    </div>
+    <!--About Section End-->
 
-          </div>
-          <a href="" class="btn-box">More About me</a>
-        </div>
-        <span class="home-imgHover"></span>
-    </section>    
-    <section class="about" id="about">
-        <div class="about-img">
-         <img src="./files/Kushal.jpg" alt="">  
-        </div>
-        <div class="about-text">
-            <h2>About <span>Me</span></h2>
-            <h4>Full Stack Developer</h4>
-            <p>
-                i'm skilled in php laravel to develope full stack web developement
-                i'm skilled in php laravel to develope full stack web developement
-                i'm skilled in php laravel to develope full stack web developement
-                i'm skilled in php laravel to develope full stack web developement
-                i'm skilled in php laravel to develope full stack web developement
-                i'm skilled in php laravel to develope full stack web developement
-                i'm skilled in php laravel to develope full stack web developement
-                i'm skilled in php laravel to develope full stack web developement
-                i'm skilled in php laravel to develope full stack web developement
-                i'm skilled in php laravel to develope full stack web developement
-            </p>
-            <a href="" class="btn-box">More About me</a>
-        </div>
-    </section>
 
-    <section class="services" id="service">
-        <div class="container">
-            <h1 class="sub-title">My <span>Services</span></h1>
-            <div class="service-list">
-                <div>
-                    <i class='bx bx-code' style="color: #00eeff;"></i>
-                    <h2>UI/UX Design</h2>
-                    <p>i'm skilled in php laravel to develope full stack web developement
-                        i'm skilled in php laravel to develope full stack web developement</p>
-                        <a href="" class="read">learn more</a>
-                </div>
-                <div>
-                    <i class='bx bx-code' style="color: #00eeff;"></i>
-                    <h2>UI/UX Design</h2>
-                    <p>i'm skilled in php laravel to develope full stack web developement
-                        i'm skilled in php laravel to develope full stack web developement</p>
-                        <a href="" class="read">learn more</a>
-                </div>
-                <div>
-                    <i class='bx bx-code' style="color: #00eeff;"></i>
-                    <h2>UI/UX Design</h2>
-                    <p>i'm skilled in php laravel to develope full stack web developement
-                        i'm skilled in php laravel to develope full stack web developement</p>
-                        <a href="" class="read">learn more</a>
-                </div>
-
-            </div>
+    <!--Footer Start-->
+    <footer class="text-center text-white" style="background-color: #f1f1f1;">
+        <!-- Grid container -->
+        <div class="container pt-4">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fafa-facebook-f"></i
+            ></a>
+      
+            <!-- Twitter -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fa fa-twitter"></i
+            ></a>
+      
+            <!-- Google -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-google"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <!-- Github -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
         </div>
-    </section>
-    <h1 class="sub-title">My <span>Skills</span></h1>
-    <section>
-        <div class="container1" id="Skills">
-            <h1 class="heading1">Technical Skills</h1>
-            <div class="Technical-bars">
-                <div class="bar"><i style="color:#c95d2e;" class='bx bxl-html5'></i>
-                    <div class="info">
-                        <span>HTML</span>
-                    </div>
-                    <div class="progress-line html">
-                        <span></span>
-                    </div>
-                </div>
-                <div class="bar"><i style="color:#147bbc;" class='bx bxl-css3'></i>
-                    <div class="info">
-                        <span>Css</span>
-                    </div>
-                    <div class="progress-line css">
-                        <span></span>
-                    </div>
-                </div>
-                <div class="bar"><i style="color:#b0bc1e;" class='bx bxl-javascript'></i>
-                    <div class="info">
-                        <span>Javascript</span>
-                    </div>
-                    <div class="progress-line javascript">
-                        <span></span>
-                    </div>
-                </div>
-                <div class="bar"><i style="color:#f3d83a;" class='bx bxl-java'></i>
-                    <div class="info">
-                        <span>Java</span>
-                    </div>
-                    <div class="progress-line java">
-                        <span></span>
-                    </div>
-                </div>
-                <div class="bar"><i style="color:#494bd8;" class='bx bxl-php' ></i>
-                    <div class="info">
-                        <span>Php</span>
-                    </div>
-                    <div class="progress-line php">
-                        <span></span>
-                    </div>
-                </div>
-            
-            </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2023 Copyright:
+          <a class="text-dark" href="">Kushal Obroy</a>
         </div>
-        <div class="container1">
-            <h1 class="heading1"> Professional Skills</h1>
-            <div class="radial-bars">
-            <div class="radial-bar">
-                <svg x="0px" y="0px" viewBox="0 0 200 200">
-                    <circle class="path path-1" cx="100" cy="100" r="80"
-                </svg>
-                <div class="percentage">90%</div>
-                <div class="text">Creativity</div>
-            </div>
-            <div class="radial-bar">
-                <svg x="0px" y="0px" viewBox="0 0 200 200">
-                    <circle class="path path-2" cx="100" cy="100" r="80"
-                </svg>
-                <div class="percentage">70%</div>
-                <div class="text">Communication</div>
-            </div>
-            <div class="radial-bar">
-                <svg x="0px" y="0px" viewBox="0 0 200 200">
-                    <circle class="path path-3" cx="100" cy="100" r="80"
-                </svg>
-                <div class="percentage">80%</div>
-                <div class="text">Problem Solving</div>
-            </div>
-            <div class="radial-bar">
-                <svg x="0px" y="0px" viewBox="0 0 200 200">
-                    <circle class="path path-4" cx="100" cy="100" r="80"
-                </svg>
-                <div class="percentage">90%</div>
-                <div class="text">Team Work</div>
-            </div>
-        </div>
-        </div>
-
-    </section>
-    <section>
-        <div id="portfolio" id="project">
-            <div class="main-text" id="project">
-                <h2>Latest <span>Project</span></h2>
-                <div class="portfolio-content">
-                    <div class="row">
-                        <img src="./files/project1.png" alt="">
-                        <div class="layer">
-                            <h5>Advanced Laravel Crud</h5>
-                            <p>i'm skilled in php laravel to develope full stack web developement
-                                i'm skilled in php laravel to develope full stack web developement</p>
-                                <a href="" class='bx bx-link-external' style="color: aliceblue;"></a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="layer">
-                            <h5>Advanced Laravel Crud</h5>
-                            <p>i'm skilled in php laravel to develope full stack web developement
-                                i'm skilled in php laravel to develope full stack web developement</p>
-                                <a href="" class='bx bx-link-external' style="color: aliceblue;"></a>
-                        </div>
-                        <img src="./files/project1.png" alt="">
-                        
-                    </div>
-                    <div class="row">
-                        <img src="./files/project1.png" alt="">
-                        <div class="layer">
-                            <h5>Advanced Laravel Crud</h5>
-                            <p>i'm skilled in php laravel to develope full stack web developement
-                                i'm skilled in php laravel to develope full stack web developement</p>
-                                <a href="" class='bx bx-link-external' style="color: aliceblue;"></a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <img src="./files/project1.png" alt="">
-                        <div class="layer">
-                            <h5>Advanced Laravel Crud</h5>
-                            <p>i'm skilled in php laravel to develope full stack web developement
-                                i'm skilled in php laravel to develope full stack web developement</p>
-                                <a href="" class='bx bx-link-external' style="color: aliceblue;"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="contact" id="contact">
-        <div class="contact-text">
-            <h2>Contac <span>Me</span></h2>
-            <h4>Let's work together</h4>
-            <p></p>
-        </div>
-    </section>
-    <script src="./js/script.js"></script>
+        <!-- Copyright -->
+      </footer>
+    <!--Footer End-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
