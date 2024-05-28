@@ -1,3 +1,25 @@
+/* Typing effect styles */
+.typing-effect {
+  font-family: monospace;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid black; /* Cursor */
+  display: inline-block;
+}
+
+/* Blinking cursor keyframes */
+@keyframes blink {
+  0% { border-right-color: black; }
+  50% { border-right-color: transparent; }
+  100% { border-right-color: black; }
+}
+
+/* Applying the blink animation */
+.text-secondary {
+  animation: blink 0.75s step-end infinite;
+}
+
+
 
 .hovereffect {
     width: 100%;
