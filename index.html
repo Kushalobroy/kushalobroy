@@ -13,21 +13,29 @@
         * {
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             font-weight: 600;
-        }
-        .fixed-button {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            z-index: 1000; /* To make sure the button appears above other content */
-        }
+        } 
     </style>
 </head>
 <title>Kushal Obroy</title>
 </head>
 
 <body>
+     <!--Mobile View-->
+
+     <nav id="navbar" class="fixed-bottom">
+        <a class="navbar-items active" href="#about" title="Profile"><i class='bx bxs-user-detail' ></i></a>
+        <a class="navbar-items" href="#experience" title="Experience"><i class='bx bxs-briefcase-alt-2'></i></a>
+        <a class="navbar-items" href="#education" title="Education"><i class='bx bxs-graduation fw-bold'></i></a>
+        <!-- Add more buttons here -->
+        <a class="navbar-items" href="#skills" title="Skills"><i class='bx bx-hive'></i>  </a>
+        <a class="navbar-items" href="#projects" title="Projects"><i class='bx bx-task'></i></a>
+        <a class="navbar-items" href="#services" title="Services"><i class='bx bx-laptop' ></i></a>
+        <a class="navbar-items" href="#contact" title="Contacts"><i class='bx bxs-contact'></i></a>
+      </nav>
+    <!--Mobile View-->
+
     <!---Navbar Start-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light rounded shadow-lg mb-5">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light rounded shadow-lg mb-5" id="nav">
         <div class="container-fluid">
             <a class="navbar-brand text-primary mx-3 " href="">Portfolio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -64,7 +72,7 @@
     <!---Navbar End-->
     <!--About Section Start-->
     <div class="container mb-3">
-        <section id="about" class="mt-5 pt-5 pb-5 bg-light rounded shadow-lg p-3 mb">
+        <section id="about" class="active mt-5 pt-5 pb-5 bg-light rounded shadow-lg p-3 mb">
             <div class="row mt-5">
                 <div class="col-md-3 text-center mt-5">
                     <div class="">
@@ -103,7 +111,7 @@
     <!--Section: Experience-->
     <div class="container mb-3">
         <section id="experience" class="mt-5 pt-5 pb-5 bg-light rounded shadow-lg p-3 mb">
-            <h1 class="fw-bold text-primary text-center"><i class='bx bxs-cog' style='color:#111010'></i> 
+            <h1 class="fw-bold text-primary text-center"><i class='bx bxs-briefcase-alt-2' style='color:#111010'></i> 
                 Experience</h1>
             <div class="container py-5">
               <div class="main-timeline">
@@ -336,8 +344,7 @@
     <!--Section: Project-->
     <div class="container mt-5">
         <section id="projects" class="mt-5 pt-5 pb-5 bg-light rounded shadow-lg p-3 mb">
-            <h1 class="fw-bold text-primary text-center" id="skills"><i class='bx bxs-objects-vertical-center'
-                    style="color: black;"></i> Projects</h1>
+            <h1 class="fw-bold text-primary text-center" id="skills"><i class='bx bx-task' style="color: black;"></i> Projects</h1>
             <div class="mt-5">
                 <div class="row mb-3">
 
@@ -443,7 +450,7 @@
     <!--Section: Services-->
     <div class="container mt-5">
         <section id="services" class="mt-5 pt-5 pb-5 bg-light rounded shadow-lg p-3 mb">
-            <h1 class="fw-bold text-primary text-center" id="skills"><i class='bx bxs-cog' style="color: black;"></i>
+            <h1 class="fw-bold text-primary text-center" id="skills"><i class='bx bx-laptop' style="color: black;"></i>
                 Services</h1>
             <div class="mt-5">
                 <div class="card-group ">
@@ -558,6 +565,8 @@
         </section>
     </div>
     <!--Section: Contact-->
+   
+
     <!--Footer Start-->
     <footer class="text-center text-white" style="background-color: #f1f1f1;">
         <!-- Grid container -->
@@ -602,24 +611,9 @@
     <!--Footer End-->
     <script src="https://web3forms.com/client/script.js" async defer></script>
     <script src="./js/script.js"></script>
-    <button class="btn btn-primary fixed-button" id="scroll"><i class='bx bx-up-arrow-alt' ></i></button>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-KyZXEAg3QhqLMpG8r+UfhAXLR3vJZG5iM2f5cBqFx/HL5HPx6TK5IN5Bc5hJ5akT" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>    <script>
-        $(document).ready(function () {
-            $(window).scroll(function() {
-                if ($(this).scrollTop() > 100) {
-                    $('#scroll').fadeIn();
-                } else {
-                    $('#scroll').fadeOut();
-                }
-            });
     
-            // Scroll to top when the button is clicked
-            $('#scroll').click(function() {
-                $('html, body').animate({ scrollTop: 0 }, 'slow');
-                return false;
-            });
-        });
     </script>
 </body>
 

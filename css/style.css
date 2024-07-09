@@ -1,3 +1,57 @@
+#navbar{
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+#nav{
+  display: none;
+}
+#navbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #0d6efd;
+  color: white;
+  font-family: 'Exo 2', sans-serif;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+.navbar-items {
+  color: beige;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 8px;
+  padding: 3px;
+}
+
+.navbar-items:hover {
+  color: beige;
+  border-radius: 20%;
+  font-size: 20px;
+  background-color: rgb(6, 6, 223);
+}
+.navbar-items.active {
+  border-radius: 20%;
+  background-color: rgb(6, 6, 223);
+  color: #fff;
+}
+section {
+  display: none; /* Hide all sections by default */
+}
+
+section.active {
+  display: block; /* Show the active section */
+  background-color: #f0f0f0; /* Highlight the active section */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 20%;
+}
+
+
+ }
 /* Typing effect styles */
 .typing-effect {
   font-family: monospace;

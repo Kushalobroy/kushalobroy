@@ -44,3 +44,34 @@ document.addEventListener("DOMContentLoaded", function() {
     typeIntro();
     typeSpans();
 });
+// Scroll to the top of the first section when the page loads
+document.addEventListener("DOMContentLoaded", function() {
+  document.getElementById("about").scrollIntoView({ behavior: 'smooth' });
+});
+// Get all navigation items and sections
+const navbarItems = document.querySelectorAll('.navbar-items');
+const sections = document.querySelectorAll('section');
+
+// Add event listener to each navigation item
+navbarItems.forEach((item, index) => {
+  item.addEventListener('click', () => {
+    // Remove active class from all navigation items
+    navbarItems.forEach((item) => {
+      item.classList.remove('active');
+    });
+
+    // Add active class to the current navigation item
+    item.classList.add('active');
+
+    // Hide all sections
+    sections.forEach((section) => {
+      section.classList.remove('active');
+    });
+
+    // Show the corresponding section
+    sections[index].classList.add('active');
+
+    // Scroll to the top of the section
+    sections[index].scrollIntoView({ behavior: 'smooth' });
+  });
+});
