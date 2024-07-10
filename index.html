@@ -23,21 +23,27 @@
      <!--Mobile View-->
 
      <nav id="navbar" class="fixed-bottom">
-        <a class="navbar-items active" href="#about" title="Profile"><i class='bx bxs-user-detail' ></i></a>
-        <a class="navbar-items" href="#experience" title="Experience"><i class='bx bxs-briefcase-alt-2'></i></a>
-        <a class="navbar-items" href="#education" title="Education"><i class='bx bxs-graduation fw-bold'></i></a>
+        <a class="navbar-items active" href="#about" data-bs-toggle="tooltip" title="Profile"><i class='bx bxs-user-detail' ></i></a>
+        <a class="navbar-items" href="#experience"data-bs-toggle="tooltip" title="Experience"><i class='bx bxs-briefcase-alt-2'></i></a>
+        <a class="navbar-items" href="#education" data-bs-toggle="tooltip" title="Education"><i class='bx bxs-graduation fw-bold'></i></a>
         <!-- Add more buttons here -->
-        <a class="navbar-items" href="#skills" title="Skills"><i class='bx bx-hive'></i>  </a>
-        <a class="navbar-items" href="#projects" title="Projects"><i class='bx bx-task'></i></a>
-        <a class="navbar-items" href="#services" title="Services"><i class='bx bx-laptop' ></i></a>
-        <a class="navbar-items" href="#contact" title="Contacts"><i class='bx bxs-contact'></i></a>
+        <a class="navbar-items" href="#skills" data-bs-toggle="tooltip" title="Skills"><i class='bx bx-hive'></i>  </a>
+        <a class="navbar-items" href="#projects" data-bs-toggle="tooltip" title="Projects"><i class='bx bx-task'></i></a>
+        <a class="navbar-items" href="#services" data-bs-toggle="tooltip" title="Services"><i class='bx bx-laptop' ></i></a>
+        <a class="navbar-items" href="#contact" data-bs-toggle="tooltip" title="Contacts"><i class='bx bxs-contact'></i></a>
       </nav>
+      <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+      </script>
     <!--Mobile View-->
 
     <!---Navbar Start-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light rounded shadow-lg mb-5" id="nav">
         <div class="container-fluid">
-            <a class="navbar-brand text-primary mx-3 " href="">Portfolio</a>
+            <a class="navbar-brand text-primary mx-3 "  href="" >Portfolio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -113,140 +119,65 @@
         <section id="experience" class="mt-5 pt-5 pb-5 bg-light rounded shadow-lg p-3 mb">
             <h1 class="fw-bold text-primary text-center"><i class='bx bxs-briefcase-alt-2' style='color:#111010'></i> 
                 Experience</h1>
-            <div class="container py-5">
-              <div class="main-timeline">
-                <div class="timeline left ">
-                  <div class="card border border-2 border-primary rounded-3 ">
-                    <div class="card-body p-4">
-                        <div class="row">
-                            <p class="m-0"> <span class="fs-4 text-primary"> PHP Developer </span></p>
-                            <div class="col-md-6">
-                                <p class="m-0 mb-1"><i class='bx bx-building'> SpiderWeb (Remote)</i></p>
+                <div class="container py-5">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="main-timeline">
                                 
+                                <div class="timeline">
+                                    <a href="#" class="timeline-content">
+                                        <div class="timeline-year">Jul 2024 - till now</div>
+                                        <h3 class="title">Fullstack Developer <span>@Mindstein Software</span></h3>
+                                        <h6 class="jobtype">(Full-time, Job)</h6>
+                                        <p class="description">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer males uada tellus lorem, et condimentum neque commodo Integer males uada tellus lorem, et condimentum neque commodo
+                                        </p>
+                                    </a>
+                                </div>
+                                <div class="timeline">
+                                    <a href="#" class="timeline-content">
+                                        <div class="timeline-year">Oct 2023 - Feb 2024</div>
+                                        <h3 class="title">Fullstack Php Developer <span class="title">@Spiderweb</span> </h3>
+                                        <h6 class="jobtype">(Full-time, Internship)</h6>
+                                        <p class="description">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer males uada tellus lorem, et condimentum neque commodo Integer males uada tellus lorem, et condimentum neque commodo
+                                        </p>
+                                    </a>
+                                </div>
                             </div>
-                            <div class="col-md-6 text-end">
-                                <span><i class='bx bx-time text-end'> Oct 2023 - till now</i></span>
-                            </div>
-                            
                         </div>
-                      
-                      <p class="mb-0">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto
-                        mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua
-                        dignissim per, habeo iusto primis ea eam.</p>
                     </div>
-                  </div>
-                </div>
-                <div class="timeline right">
-                    <div class="card border border-2 border-primary rounded-3 ">
-                        <div class="card-body p-4">
-                            <div class="row">
-                                <p class="m-0"> <span class="fs-4 text-primary"> PHP Developer </span></p>
-                                <div class="col-md-6">
-                                    <p class="m-0 mb-1"><i class='bx bx-building'> SpiderWeb (Remote)</i></p>
-                                    
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="main-timeline">
+                                <div class="timeline">
+                                    <a href="#" class="timeline-content">
+                                        <div class="timeline-year">Jan 2023 - Apr 2023</div>
+                                        <h3 class="title">Fullstack Web Developer @Postulate Info. Tech.</h3>
+                                        <h6 class="jobtype">(Full-time, Internship)</h6>
+                                        <p class="description">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer males uada tellus lorem, et condimentum neque commodo Integer males uada tellus lorem, et condimentum neque commodo
+                                        </p>
+                                    </a>
                                 </div>
-                                <div class="col-md-6 text-end">
-                                    <span><i class='bx bx-time text-end'> Oct 2023 - till now</i></span>
+                                <div class="timeline">
+                                    <a href="#" class="timeline-content">
+                                        <div class="timeline-year">Aug 2022 - Oct 2022</div>
+                                        <h3 class="title">Fullstack Developer @IBM</h3>
+                                        <h6 class="jobtype">(Full-time, Internship)</h6>
+                                        <p class="description">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer males uada tellus lorem, et condimentum neque commodo Integer males uada tellus lorem, et condimentum neque commodo
+                                        </p>
+                                    </a>
                                 </div>
-                                
                             </div>
-                          
-                          <p class="mb-0">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto
-                            mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua
-                            dignissim per, habeo iusto primis ea eam.</p>
                         </div>
-                      </div>
+                    </div>
                 </div>
-                <div class="timeline left">
-                    <div class="card border border-2 border-primary rounded-3 ">
-                        <div class="card-body p-4">
-                            <div class="row">
-                                <p class="m-0"> <span class="fs-4 text-primary"> PHP Developer </span></p>
-                                <div class="col-md-6">
-                                    <p class="m-0 mb-1"><i class='bx bx-building'> SpiderWeb (Remote)</i></p>
-                                    
-                                </div>
-                                <div class="col-md-6 text-end">
-                                    <span><i class='bx bx-time text-end'> Oct 2023 - till now</i></span>
-                                </div>
-                                
-                            </div>
-                          
-                          <p class="mb-0">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto
-                            mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua
-                            dignissim per, habeo iusto primis ea eam.</p>
-                        </div>
-                      </div>
-                </div>
-                <div class="timeline right">
-                    <div class="card border border-2 border-primary rounded-3 ">
-                        <div class="card-body p-4">
-                            <div class="row">
-                                <p class="m-0"> <span class="fs-4 text-primary"> PHP Developer </span></p>
-                                <div class="col-md-6">
-                                    <p class="m-0 mb-1"><i class='bx bx-building'> SpiderWeb (Remote)</i></p>
-                                    
-                                </div>
-                                <div class="col-md-6 text-end">
-                                    <span><i class='bx bx-time text-end'> Oct 2023 - till now</i></span>
-                                </div>
-                                
-                            </div>
-                          
-                          <p class="mb-0">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto
-                            mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua
-                            dignissim per, habeo iusto primis ea eam.</p>
-                        </div>
-                      </div>
-                </div>
-                <div class="timeline left">
-                    <div class="card border border-2 border-primary rounded-3 ">
-                        <div class="card-body p-4">
-                            <div class="row">
-                                <p class="m-0"> <span class="fs-4 text-primary"> PHP Developer </span></p>
-                                <div class="col-md-6">
-                                    <p class="m-0 mb-1"><i class='bx bx-building'> SpiderWeb (Remote)</i></p>
-                                    
-                                </div>
-                                <div class="col-md-6 text-end">
-                                    <span><i class='bx bx-time text-end'> Oct 2023 - till now</i></span>
-                                </div>
-                                
-                            </div>
-                          
-                          <p class="mb-0">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto
-                            mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua
-                            dignissim per, habeo iusto primis ea eam.</p>
-                        </div>
-                      </div>
-                </div>
-                <div class="timeline right">
-                    <div class="card border border-2 border-primary rounded-3 ">
-                        <div class="card-body p-4">
-                            <div class="row">
-                                <p class="m-0"> <span class="fs-4 text-primary"> PHP Developer </span></p>
-                                <div class="col-md-6">
-                                    <p class="m-0 mb-1"><i class='bx bx-building'> SpiderWeb (Remote)</i></p>
-                                    
-                                </div>
-                                <div class="col-md-6 text-end">
-                                    <span><i class='bx bx-time text-end'> Oct 2023 - till now</i></span>
-                                </div>
-                                
-                            </div>
-                          
-                          <p class="mb-0">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto
-                            mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua
-                            dignissim per, habeo iusto primis ea eam.</p>
-                        </div>
-                      </div>
-                </div>
-              </div>
-            </div>
           </section>
     </div>
     <!--Section: Experience-->
-
+    
     <!--Education Start-->
     <div class="container mt-5">
         <section id="education" class="mt-5 pt-5 pb-5 bg-light rounded shadow-lg p-3 mb">
@@ -613,7 +544,7 @@
     <script src="./js/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-KyZXEAg3QhqLMpG8r+UfhAXLR3vJZG5iM2f5cBqFx/HL5HPx6TK5IN5Bc5hJ5akT" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>    <script>
-    
+        
     </script>
 </body>
 
