@@ -13,7 +13,7 @@
 	
 ## <picture><img src = "https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/about_me.gif" width = 50px></picture> **About me**
 
-<picture> <img align="right" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fin.linkedin.com%2Fin%2Fkushalobroy&psig=AOvVaw2mo-aCPLiO_A5x8i5b9lk6&ust=1716979579635000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJi4-tCVsIYDFQAAAAAdAAAAABAE" alt="Kushal Obroy" width = 250px></picture>
+<picture> <img align="right" src="./files/Kushal.jpg" alt="Kushal Obroy" width = "250px" height="300px" style="border-radius: 50%; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);"></picture>
 
 <br>
 
