@@ -11,9 +11,9 @@
 
 
 	
-## <picture><img src = "https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/about_me.gif" width = 50px></picture> **About me**
+## <picture><img src = "https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width = 50px></picture> **About me**
 
-<picture> <img align="right" src="./files/Kushal.jpg" alt="Kushal Obroy" width = "250px" height="300px" style="border-radius: 50%; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);"></picture>
+<picture> <img align="right" src="./files/Kushal.jpg" alt="Kushal Obroy" width = "220px" height="270px" style="border-radius: 50%; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);"></picture>
 
 <br>
 
