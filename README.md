@@ -77,21 +77,20 @@
 -----
 
 <br>
+<br/>
 
+### <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"> &nbsp; GitHub Analytics
 
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"><b> Github Stats </b>
-<br>
-
-<div align="center">
-
-<a href="https://github.com/Kushalobroy/">
-  <img src="https://github-readme-stats.vercel.app/api?username=kushalobroy&include_all_commits=true&count_private=true&show_icons=true&line_height=20&title_color=7A7ADB&icon_color=2234AE&text_color=D3D3D3&bg_color=0,000000,130F40" width="450"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=kushalobroy&show_icons=true&locale=en&layout=compact&line_height=20&title_color=7A7ADB&icon_color=2234AE&text_color=D3D3D3&bg_color=0,000000,130F40" width="375"  alt="kushalobroy"/>
-
+<p align="center">
+<a href="https://github.com/Kushalobroy">
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Kushalobroy&show_icons=true&theme=vue-light&include_all_commits=true&count_private=true" />
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Kushalobroy&layout=compact&exclude_lang=java+r&theme=vue-light" />
 </a>
-</div>
+</p>
 
-<br>
+
+
+
 <br>
 <br>
 
