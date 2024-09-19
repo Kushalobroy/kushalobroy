@@ -4,27 +4,26 @@
 <p align="center">
   <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=cyan&size=25&center=true&vCenter=true&width=600&height=100&lines=Self-taught+Fullstack+Developer,;Computer+Science+Student,;BGMI+Newbie,;Active+Learner/Researcher,;Love+to+learn+new+stuffs..<3"></a>
 </p>
-
-
 <br>
-
-
-
 	
 ## <picture><img src = "https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width = 50px></picture> **About me**
-
-<picture> <img align="right" src="./files/Kushal.jpg" alt="Kushal Obroy" width = "220px" height="270px" style="border-radius: 50%; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);"></picture>
-
-<br>
 
 - A passionate Fullstack developer
 - Playing BGMI at spare time
 - Personal website [link]()
 - I’m currently open for an Intern or a new job opportunity, this is [my resume]()
 
-<br><br>
+<br/>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
+
+<p align="center">  
+  <img src="https://komarev.com/ghpvc/?username=Kushalobroy" alt="Kushalobroy" />
+  <img alt="GitHub followers" src="https://img.shields.io/github/followers/Kushalobroy?label=Followers&style=social"> •   
+  <img src="https://img.shields.io/github/stars/Kushalobroy?label=Stars" alt="Total Stars">
+</p>
+
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"><b> Skills</b>
 <br>
@@ -70,17 +69,11 @@
 
 
 </p>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width ="35"><b> GitHub Analytics</b>
 <br>
 <br>
-
------
-
-<br>
-<br/>
-
-### <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"> &nbsp; GitHub Analytics
-
 <p align="center">
 <a href="https://github.com/Kushalobroy">
   <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Kushalobroy&show_icons=true&theme=vue-light&include_all_commits=true&count_private=true" />
@@ -88,16 +81,7 @@
 </a>
 </p>
 
-
-
-
-<br>
-<br>
-
------
-
-<br>
-<br>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
 
 ## <b> Let's Connect..!</b><img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="80">
 <br>
@@ -132,9 +116,6 @@
 
 <br>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-<br>
-<br>
-<br>
 
 <div align='center'>
 
