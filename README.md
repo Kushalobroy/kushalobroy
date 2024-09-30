@@ -1,15 +1,36 @@
 
-<h1 align="center"><b>Hi , I'm Kushal Obroy </b><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
+<p align="center"><picture align="center"><img align="center" src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture></p>
+<h1 align="center">Hi 👋, I'm Kushal Obroy</h1>
+<h3 align="center">Passionate IT Student | Exploring the Boundless World of Technology</h3>
 
-	
-## <picture><img src = "https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width = 50px></picture> **About me**
+<p align="center">  
+  <img src="https://komarev.com/ghpvc/?username=Kushalobroy" alt="Kushalobroy" />
+  <img alt="GitHub followers" src="https://img.shields.io/github/followers/Kushalobroy?label=Followers&style=social"> •   
+  <img src="https://img.shields.io/github/stars/Kushalobroy?label=Stars" alt="Total Stars">
+</p>
+<table align="center">
+<tr border="none">
+<td width="50%" align="left">
+  
+- 🌱 I’m currently learning **OOP with Java**
 
-- A passionate Fullstack developer
-- Playing BGMI at spare time
-- Personal website [link]()
-- I’m currently open for an Intern or a new job opportunity, this is [my resume]()
+- 🧑‍🎓 I’m an Undergraduate at **AKTU (REC Azamgarh)**
 
-<br/>
+- 💬 Ask me about **Web development | OOC**
+
+- 📫 How to reach me **karn87470@gmail.com**
+  
+- ⚡ Fun fact **Call me as KD**
+
+</td>
+<td width="50%" align="center">
+
+  <img align="center" alt="Coding" width="450" src="https://repository-images.githubusercontent.com/588181932/e36ec678-7984-4cdd-8e4c-a3932772ff8e">
+
+  
+  </td>
+</tr>
+</table>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 
@@ -33,11 +54,6 @@
 </tr>
 </table>
 
-<p align="center">  
-  <img src="https://komarev.com/ghpvc/?username=Kushalobroy" alt="Kushalobroy" />
-  <img alt="GitHub followers" src="https://img.shields.io/github/followers/Kushalobroy?label=Followers&style=social"> •   
-  <img src="https://img.shields.io/github/stars/Kushalobroy?label=Stars" alt="Total Stars">
-</p>
 
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
