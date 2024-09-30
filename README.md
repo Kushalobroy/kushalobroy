@@ -1,10 +1,6 @@
 
 <h1 align="center"><b>Hi , I'm Kushal Obroy </b><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
-<!--  -->
-<p align="center">
-  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=cyan&size=25&center=true&vCenter=true&width=600&height=100&lines=Self-taught+Fullstack+Developer,;Computer+Science+Student,;BGMI+Newbie,;Active+Learner/Researcher,;Love+to+learn+new+stuffs..<3"></a>
-</p>
-<br>
+
 	
 ## <picture><img src = "https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width = 50px></picture> **About me**
 
@@ -14,7 +10,28 @@
 - I’m currently open for an Intern or a new job opportunity, this is [my resume]()
 
 <br/>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
+
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width ="35"><b> GitHub Analytics</b>
+<br>
+<br>
+
+<table align="center">
+<tr border="none">
+<td width="50%" align="center">
+  
+   <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Kushalobroy&show_icons=true&theme=vue-light&include_all_commits=true&count_private=true" />
+  <br></br>
+  <img  title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="Mark streak" src="https://github-readme-streak-stats.herokuapp.com/?user=kushalobroy&theme=vue-light&hide_border=false" /> 
+</td>
+<td width="50%" align="center">
+
+  <img  align="center"  src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=kushalobroy&theme=vue-light&hide_border=false&no-bg=true&no-frame=true&langs_count=15"/>
+  
+  </td>
+</tr>
+</table>
 
 <p align="center">  
   <img src="https://komarev.com/ghpvc/?username=Kushalobroy" alt="Kushalobroy" />
@@ -69,17 +86,7 @@
 
 
 </p>
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width ="35"><b> GitHub Analytics</b>
-<br>
-<br>
-<p align="center">
-<a href="https://github.com/Kushalobroy">
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Kushalobroy&show_icons=true&theme=vue-light&include_all_commits=true&count_private=true" />
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Kushalobroy&layout=compact&exclude_lang=java+r&theme=vue-light" />
-</a>
-</p>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
 
