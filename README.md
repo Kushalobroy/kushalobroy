@@ -16,11 +16,11 @@
 
 - 🧑‍🎓 I’m an Undergraduate at **AKTU (REC Azamgarh)**
 
-- 💬 Ask me about **Web development | OOC**
+- 💬 Ask me about **Fullstack development**
 
 - 📫 How to reach me **karn87470@gmail.com**
   
-- ⚡ Fun fact **Call me as KD**
+- ⚡ Fun fact **Call me as KK**
 
 </td>
 <td width="50%" align="center">
