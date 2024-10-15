@@ -20,7 +20,7 @@
 
 - 📫 How to reach me **karn87470@gmail.com**
   
-- ⚡ Fun fact **Call me as KK**
+- ⚡ Fun fact **Call me as TCS Boy**
 
 </td>
 <td width="50%" align="center">
